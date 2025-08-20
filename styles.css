@@ -36,3 +36,12 @@ a.btn {
   text-decoration: none;
   display: inline-block;
 }
+
+/* ### GENERAL STYLING ### */
+
+body {
+  background-color: #f5f5fc;
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-700);
+  color: var(--gray-650);
+}
