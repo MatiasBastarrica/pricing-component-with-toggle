@@ -1,0 +1,12 @@
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  /* # PRIMARY # */
+  /* linear gradient */
+  --grd-clr-1: hsl(237, 73%, 79%);
+  --grd-clr-2: hsl(238, 63%, 64%);
+  /* # NEUTRAL # */
+  --blue-50: hsl(240, 78%, 98%);
+  --gray-650: hsl(233, 13%, 49%);
+  --gray-700: hsl(232, 13%, 33%);
+}
