@@ -9,4 +9,7 @@
   --blue-50: hsl(240, 78%, 98%);
   --gray-650: hsl(233, 13%, 49%);
   --gray-700: hsl(232, 13%, 33%);
+  /* # TYPOGRAPHY # */
+  --ff-montserrat: "Montserrat", sans-serif;
+  --fw-700: 700;
 }
