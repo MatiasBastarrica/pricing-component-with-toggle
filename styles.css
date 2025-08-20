@@ -30,3 +30,9 @@ svg {
   max-width: 100%;
   display: block;
 }
+
+a.btn {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
