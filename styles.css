@@ -238,7 +238,12 @@ input:checked + .slider:before {
     height: 100vh;
   }
 
+  main {
+    padding-block: 5rem;
+  }
+
   .cards-container {
+    margin-top: 3rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -246,7 +251,7 @@ input:checked + .slider:before {
   }
 
   .professional-card {
-    padding-block: 3rem;
+    padding-block: 3.5rem;
   }
 
   .card:nth-child(n) {
