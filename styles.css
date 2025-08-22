@@ -91,6 +91,7 @@ h1 {
   margin-inline: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.6rem;
 }
 
@@ -104,6 +105,7 @@ h1 {
   align-items: center;
   gap: 1.8rem;
   font-size: 0.9rem;
+  width: 333px;
 }
 
 .card h2 {
@@ -227,7 +229,7 @@ input:checked + .slider:before {
 
 /* ### MEDIA QUERIES ### */
 
-@media (min-width: 50em) {
+@media (min-width: 55em) {
   .cards-container {
     flex-direction: row;
     justify-content: center;
@@ -242,6 +244,6 @@ input:checked + .slider:before {
   .card:nth-child(n) {
     /* background-color: pink; */
     margin-block: 2rem;
-    flex-basis: 333px;
+    /* flex-basis: 333px; */
   }
 }
