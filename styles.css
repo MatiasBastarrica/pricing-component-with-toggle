@@ -228,11 +228,17 @@ input:checked + .slider:before {
   .cards-container {
     flex-direction: row;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    gap: 0;
+  }
+
+  .professional-card {
+    padding-block: 3rem;
   }
 
   .card:nth-child(n) {
-    background-color: red;
+    /* background-color: pink; */
     margin-block: 2rem;
+    flex-basis: 333px;
   }
 }
