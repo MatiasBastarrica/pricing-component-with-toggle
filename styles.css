@@ -105,7 +105,9 @@ h1 {
   align-items: center;
   gap: 1.8rem;
   font-size: 0.9rem;
-  width: 333px;
+  max-width: 348px;
+  width: 100%;
+  flex-shrink: 1;
 }
 
 .card h2 {
@@ -229,7 +231,13 @@ input:checked + .slider:before {
 
 /* ### MEDIA QUERIES ### */
 
-@media (min-width: 55em) {
+@media (min-width: 65em) {
+  body {
+    background-image: url(./images/bg-top.svg), url(./images/bg-bottom.svg);
+    background-position: top right, bottom left;
+    height: 100vh;
+  }
+
   .cards-container {
     flex-direction: row;
     justify-content: center;
@@ -242,8 +250,6 @@ input:checked + .slider:before {
   }
 
   .card:nth-child(n) {
-    /* background-color: pink; */
     margin-block: 2rem;
-    /* flex-basis: 333px; */
   }
 }
