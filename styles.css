@@ -221,3 +221,18 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* ### MEDIA QUERIES ### */
+
+@media (min-width: 50em) {
+  .cards-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .card:nth-child(n) {
+    background-color: red;
+    margin-block: 2rem;
+  }
+}
